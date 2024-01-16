@@ -25,7 +25,7 @@ export default class CCCalc extends Component {
                 <div className="my-button">
                     <button onClick={this.handleAddition}>+</button> <button id="buttonMinus" onClick={this.handleMinus}>-</button><br /> 
                     <button id="buttonMultiplication" onClick={this.handleMultiplication}>*</button> <button id="buttonDivision">/</button>
-                </div><br /><br /> <br />
+                </div><br /><br /> <br /> <br />
                 Result: <input type="number" />
             </div>
         )
